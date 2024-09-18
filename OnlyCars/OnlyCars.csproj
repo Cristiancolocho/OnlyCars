@@ -63,8 +63,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Autos\" />
 	  <Folder Include="Rines\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Autos\a.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Autos\AutosOC.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
