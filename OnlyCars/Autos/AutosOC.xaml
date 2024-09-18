@@ -6,7 +6,6 @@
              NavigationPage.HasNavigationBar="False"
              Background="Purple">
     <ScrollView>
-
         <Grid RowDefinitions=".2*,.8*">
             <VerticalStackLayout Spacing="10">
                 <Label Margin="25,25,0,0"
@@ -110,8 +109,7 @@
                                             </Border.Stroke>
                                             <Image HorizontalOptions="Center" Source="logo.png"/>
                                         </Border>
-                                    </Grid>
-                                   
+                                    </Grid>                                   
                                 </Grid>
                                 <Grid Grid.Row="1" Margin="0,10,0,0"
                                       Padding="10" ColumnDefinitions="*,*,*" RowDefinitions="*,*">
@@ -149,7 +147,6 @@
                                                     Glyph="&#xf48b;"
                                                     Color="Black"/>
                                             </Image.Source>
-
                                         </Image>
                                         <Label
                                             Margin="10,0,0,0"
@@ -165,10 +162,7 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-        </Grid>
-        
-               
-        
+        </Grid>     
+                       
     </ScrollView>
-
 </ContentPage>
