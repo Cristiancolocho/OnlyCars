@@ -68,10 +68,14 @@
 
 	<ItemGroup>
 	  <MauiImage Include="Autos\a.png" />
+	  <MauiImage Include="Autos\b.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Autos\AutosOC.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StoresView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
