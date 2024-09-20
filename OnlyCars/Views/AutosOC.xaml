@@ -10,7 +10,7 @@
             <VerticalStackLayout Spacing="10">
                 <Label Margin="25,25,0,0"
                        FontAttributes="Bold"
-                       Text="Bienvenidos a ONLYCARS"
+                       Text="ONLYCARS"
                        TextColor="White"
                        HorizontalOptions="Center"/>
                 <Grid Margin="25,10,0,0" ColumnDefinitions="Auto,*">
@@ -45,7 +45,7 @@
                             <Entry
                                 Grid.Column="1"
                                 FontFamily="bold"
-                                Placeholder="Search a car "
+                                Placeholder="Buscar Carro"
                                 PlaceholderColor="#9d9d9d"
                                 TextColor="White"/>
                         </Grid>
