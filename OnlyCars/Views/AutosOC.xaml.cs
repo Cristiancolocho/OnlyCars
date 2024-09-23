@@ -12,7 +12,7 @@ public partial class AutosOC : ContentPage
         BindingContext = this;
     }
 
-    private void LoadData()
+    public void LoadData()
     {
 
         Stores = new List<Store>
@@ -21,7 +21,7 @@ public partial class AutosOC : ContentPage
             {
                 Id = 1,
                 Header="header",
-                Logo="b.png",
+                Logo="dodge.png",
                 Name = "Dodge Challenger 1970",
                 km = "315km/h",
                 Money  = 45000,
@@ -32,40 +32,40 @@ public partial class AutosOC : ContentPage
             {
                 Id = 2,
                 Header="header",
-                Logo="a.png",
+                Logo="gtr.png",
                 Name = "Nissan Skyline GTR R34",
-                km = "315km/h",
+                km = "266km/h",
                 Money = 5,
                 Stock = 10,
-                Rating = 4.5
+                Rating = 5
             },
              new Store
             {
                 Id = 3,
                 Header="header",
-                Logo="b.png",
-                Name = "Nissan Skyline GTR R34",
-                km = "315km/h",
+                Logo="silvia.png",
+                Name = "Nissan Silvia S15",
+                km = "257Km/h",
                 Money = 5,
                 Stock = 10,
-                Rating = 4.5
+                Rating = 4
             },
               new Store
             {
                 Id = 4,
                 Header="header",
-                Logo="a.png",
-                Name = "Nissan Skyline GTR R34",
-                km = "315km/h",
+                Logo="miata.png",
+                Name = "Mazda MX 5 Miata",
+                km = "195km/h",
                 Money = 5,
                 Stock = 10,
-                Rating = 4.5
+                Rating = 3.5
             },
                new Store
             {
                 Id = 5,
                 Header="header",
-                Logo="b.png",
+                Logo="miata.png",
                 Name = "Nissan Skyline GTR R34",
                 km = "315km/h",
                 Money = 5,
