@@ -4,9 +4,9 @@
              x:Class="OnlyCars.Autos.AutosOC"
              Title="ONLYCARS"
              NavigationPage.HasNavigationBar="False"
-             Background="Purple">
+             Background="Black">
     <ScrollView>
-        <Grid RowDefinitions=".2*,.8*">
+        <Grid RowDefinitions=".1*,.9*">
             <VerticalStackLayout Spacing="10">
                 <Label Margin="25,25,0,0"
                        FontAttributes="Bold"

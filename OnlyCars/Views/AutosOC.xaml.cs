@@ -35,7 +35,7 @@ public partial class AutosOC : ContentPage
                 Logo="gtr.png",
                 Name = "Nissan Skyline GTR R34",
                 km = "266km/h",
-                Money = 5,
+                Money = 100000,
                 Stock = 10,
                 Rating = 5
             },
@@ -46,7 +46,7 @@ public partial class AutosOC : ContentPage
                 Logo="silvia.png",
                 Name = "Nissan Silvia S15",
                 km = "257Km/h",
-                Money = 5,
+                Money = 80000,
                 Stock = 10,
                 Rating = 4
             },
@@ -57,20 +57,20 @@ public partial class AutosOC : ContentPage
                 Logo="miata.png",
                 Name = "Mazda MX 5 Miata",
                 km = "195km/h",
-                Money = 5,
-                Stock = 10,
+                Money = 10000,
+                Stock = 100,
                 Rating = 3.5
             },
                new Store
             {
                 Id = 5,
                 Header="header",
-                Logo="miata.png",
-                Name = "Nissan Skyline GTR R34",
-                km = "315km/h",
-                Money = 5,
-                Stock = 10,
-                Rating = 4.5
+                Logo="honda.png",
+                Name = "Honda civic jaiba año 1998",
+                km = "200/h",
+                Money = 20000,
+                Stock = 200,
+                Rating = 5
             },
         };
     }
