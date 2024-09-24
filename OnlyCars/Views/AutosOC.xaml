@@ -5,6 +5,7 @@
              Title="ONLYCARS"
              NavigationPage.HasNavigationBar="False"
              Background="Black">
+    
     <ScrollView>
         <Grid RowDefinitions=".1*,.9*">
             <VerticalStackLayout Spacing="10">
