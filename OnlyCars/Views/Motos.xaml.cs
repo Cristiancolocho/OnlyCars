@@ -11,6 +11,8 @@ public partial class Motos : ContentPage
         BindingContext = this;
     }
 
+    
+
     private void LoadData()
     {
 
@@ -20,10 +22,10 @@ public partial class Motos : ContentPage
             {
                 Id = 1,
                 Header="header",
-                Logo="yr.png",
-                Name = "Yamaha YZF-R6",
-                km = "315km/h",
-                Money  = 17000,
+                Logo="kawa.png",
+                Name = "Kawasaki Ninja H2R",
+                km = "357 km/h",
+                Money  = 70000,
                 Stock = 100,
                 Rating = 4.5
             },
@@ -31,43 +33,43 @@ public partial class Motos : ContentPage
             {
                 Id = 2,
                 Header="header",
-                Logo="gtr.png",
-                Name = "Nissan Skyline GTR R34",
-                km = "266km/h",
-                Money = 100000,
-                Stock = 10,
+                Logo="bmw.png",
+                Name = "BMW S1000 RR",
+                km = "316 km/h",
+                Money = 16000,
+                Stock = 1000,
                 Rating = 5
             },
              new Store
             {
                 Id = 3,
                 Header="header",
-                Logo="silvia.png",
-                Name = "Nissan Silvia S15",
-                km = "257Km/h",
-                Money = 80000,
-                Stock = 10,
+                Logo="yr.png",
+                Name = "Yamaha YZF-R6",
+                km = "292 km/h",
+                Money = 17000,
+                Stock = 3000,
                 Rating = 4
             },
               new Store
             {
                 Id = 4,
                 Header="header",
-                Logo="miata.png",
-                Name = "Mazda MX 5 Miata",
-                km = "195km/h",
-                Money = 10000,
-                Stock = 100,
+                Logo="duca.png",
+                Name = "Ducati R1199 Panigale R",
+                km = "310 km/h",
+                Money = 20000,
+                Stock = 10000,
                 Rating = 3.5
             },
                new Store
             {
                 Id = 5,
                 Header="header",
-                Logo="honda.png",
-                Name = "Honda civic jaiba año 1998",
-                km = "200/h",
-                Money = 20000,
+                Logo="dogg.png",
+                Name = "Dodge Tomahawk",
+                km = "536 km/h",
+                Money = 550000,
                 Stock = 200,
                 Rating = 5
             },

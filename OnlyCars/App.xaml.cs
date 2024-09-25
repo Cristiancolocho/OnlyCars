@@ -1,4 +1,5 @@
 ﻿using OnlyCars.Autos;
+using OnlyCars.Views;
 
 namespace OnlyCars
 {
@@ -8,7 +9,7 @@ namespace OnlyCars
         {
             InitializeComponent();
 
-            MainPage = new AutosOC();
+            MainPage = new Motos();
         }
     }
 }
