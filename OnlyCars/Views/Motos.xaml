@@ -27,23 +27,23 @@
                         Margin="15,0,0,0"
                         HorizontalOptions="Start"
                         VerticalOptions="Center"
-                        WidthRequest="15">
+                        HeightRequest="25">
                         <Image.Source>
                             <FontImageSource
                              FontFamily="MOTO"
-                             Glyph="&#0045;"
+                             Glyph="B"
                              Color="White"/>
                         </Image.Source>
                     </Image>
                 </Grid>
                 <Grid Margin="25,10,0,0" ColumnDefinitions=".9*,.1*">
                     <Border Padding="0" StrokeShape="RoundRectangle 8,8,8,8">
-                        <Grid ColumnDefinitions=".1*,.9*">
+                        <Grid ColumnDefinitions=".2*,.8*">
                             <Image HorizontalOptions="Center"
                                 VerticalOptions="Center"
-                                WidthRequest="20">
+                                HeightRequest="25">
                                 <Image.Source>
-                                    <FontImageSource FontFamily="MOTO" Glyph="&#0045;"/>
+                                    <FontImageSource FontFamily="MOTO" Glyph="K"/>
                                 </Image.Source>
                             </Image>
                             <Entry
@@ -131,7 +131,7 @@
                                      Grid.Row="1"
                                      Margin="0,10,0,0"
                                      FontFamily="ProeLi"
-                                     Text="{Binding Money}"
+                                     Text="{Binding Money, StringFormat='{0:c}'}"
                                      TextColor="Black"
                                      VerticalOptions="Center"/>
                                     <Label
@@ -149,18 +149,11 @@
                                      Margin="0,10,0,0"
                                      HorizontalOptions="CenterAndExpand"
                                      VerticalOptions="Start">
-                                        <Image HeightRequest="15" VerticalOptions="Center">
-                                            <Image.Source>
-                                                <FontImageSource
-                                                 FontFamily="ProeLi"
-                                                 Glyph="&#xf48b;"
-                                                 Color="Black"/>
-                                            </Image.Source>
-                                        </Image>
+                                        
                                         <Label 
                                         Margin="10,0,0,0"
                                         FontFamily="ProeLi"
-                                        HorizontalOptions="End"
+                                        HorizontalOptions="Center"
                                         Text="{Binding km}"
                                         TextColor="Black"
                                         VerticalOptions="Start"/>

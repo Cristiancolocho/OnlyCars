@@ -9,7 +9,7 @@ namespace OnlyCars
         {
             InitializeComponent();
 
-            MainPage = new AutosOC();
+            MainPage = new Motos();
         }
     }
 }
